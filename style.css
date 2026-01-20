@@ -3,23 +3,34 @@
 body {
   background-color: #111184;
   color: white;
+  padding-top: 20px; 
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Arial';
 }
 
 h1 {
-  font-family: 'Alfa Slab One', sans-serif;
+  font-family: 'Alfa Slab One', 'Times New Roman';
   font-weight: 100;
 }
 
+h2 {
+  font-family: 'Alfa Slab One', 'Times New Roman';
+  font-weight: 50;
+}
+
 h3 {
-  font-family: 'Alfa Slab One', sans-serif;
+  font-family: 'Alfa Slab One', 'Times New Roman';
   font-weight: 30;
 }
 
 a:link {
-  color: rgb(0, 128, 28);
+  color: rgb(225, 255, 0);
   background-color: transparent;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }

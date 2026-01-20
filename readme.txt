@@ -10,26 +10,36 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
+10/10
 - 1/1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- 1/1 Advanced feature
+- 2/2 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
+At least one image, with descriptive alt attribute(s)
+Appropriate headings and paragraph text
+Multiple pages, with appropriate navigation between them
+Semantic HTML tags like aside or footer
 
 
 (b) CSS features
+Modifying padding and margins to indent content and enhance readability
+
+Modifying link, text color, or other colors to be visually appealing, perhaps with one of the pallette creators in the resources tab
+
+Adding custom font(s) from Google fonts to add more personality (make sure to include appropriate fallbacks)
 
 
 
 (c) Advanced features
+
+Embedded HTML5 media, like video or audio, with fallbacks
 
 
 
@@ -38,17 +48,36 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 
+
 4. How long, in hours, did it take you to complete this assignment?
 
-
+15 hours.
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 
+https://www.w3schools.com/css/css_font_google.asp
+https://www.w3schools.com/html/html_links.asp
+https://www.w3schools.com/html/html_responsive.asp
+https://www.w3schools.com/tags/tag_button.asp
+https://getbootstrap.com/docs/5.3/layout/containers/
 
+Queries to AI include the following:
+
+You are a patient HTML tutor. Let this chat act as a step-by-step session to help me with any HTML problems. DO NOT CREATE ANY HTML, CSS, ETC. CODE FOR ME. 
+
+I need to implement bootstrap so that the page will resize correctly depending on if I use a small, medium or large screen. How can I do this?
+
+How can I set everything to be centered?
+
+How to add fallbacks for my fonts?
+
+How to embed a video in my code?
+
+Please format my code to look nice.
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
-
+None.
 
 7. Is there anything special we need to know in order to run your code?
-
+No.

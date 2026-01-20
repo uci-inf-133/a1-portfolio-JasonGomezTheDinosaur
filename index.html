@@ -1,63 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <meta name="author" content="Kiefer Kokhavi">
- <title>My Portfolio</title>
- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa Slab One">
- <link rel="stylesheet" href="style.css">
 
+
+<!--
+WRITTEN BY: Kiefer Kokhavi
+EMAIL: kkokhavi@uci.edu
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Kiefer Kokhavi">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
+    <div class="container">
 
-<h1>My Portfolio</h1>
-<h3>By Kiefer Kokhavi</h3>
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <h1 class="mb-3">My Portfolio</h1>
+                <h2>By Kiefer Kokhavi</h2>
+            </div>
+        </div>
 
-<tr class="row">
-    <div class="col-md-8 offset-md-2">
-        <div class="text-center">
-    <p>
-    Hello dear viewer! Welcome to my portfolio! There is not much here 
-    so far, but I will update it as I progress in my programming prowess. :)
-    </p>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="text-center">
+                    <p>
+                        Hello dear viewer! Welcome to my portfolio! There is not much here
+                        so far, but I will update it as I progress in my programming prowess. :)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-">
+            <div class="col-12 text-center">
+                <h3 class="mb-4">Video of a Game I'm Developing</h3>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-10 col-lg-8 text-center">
+                <div class="ratio ratio-16x9">
+                    <video controls class="rounded">
+                        <source src="Game_Video.mp4" type="video/mp4">
+                        <p>
+                            Your browser doesn't support HTML5 video.
+                            <a href="Game_Video.mp4">Download the video</a> instead.
+                        </p>
+                    </video>
+                </div>
+
+                <div class="row justify-content-center mt-4">
+                    <div class="col-md-8 text-center">
+                        <p>
+                            It is clearly in a primitive state, but I hope after finalizing level
+                            design to implement proper graphics in place of all the placeholders
+                            visible here.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mt-2">
+                    <div class="col-md-8">
+                        <div class="text-center">
+                            <p>
+                                I also dabble in 3D modeling from time to time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mt-">
+                    <div class="col-12 text-center">
+                        <h3 class="mb-4">Some Models of Mine</h3>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mb-4">
+                    <div class="col-md-6 text-center mb-3 mb-md-0">
+                        <img src="Boy.png"
+                            alt="A screenshot of a 3D blender model of the character Vault Boy from the video game franchise Fallout."
+                            class="img-fluid rounded">
+                        <p class="mt-2"><small>Vault Boy Model</small></p>
+                    </div>
+
+                    <div class="col-md-6 text-center">
+                        <img src="Shake.jpeg"
+                            alt="A screenshot of a 3D blender model of the character Master Shake from the Adult Swim show Aqua Teen Hunger Force."
+                            class="img-fluid rounded">
+                        <p class="mt-2"><small>Master Shake Model</small></p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mt-2">
+                    <div class="col-md-8">
+                        <div class="text-center">
+                            <p>
+                                I'll update this portfolio as I create more content!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mt-4">
+                    <div class="col-auto text-center">
+                        <a href="home.html" class="btn btn-primary">Home</a>
+                    </div>
+                </div>
+
+
+                <footer class="row justify-content-center mt-5">
+                    <div class="col-12 text-center">
+                        <p>© 2026 Kiefer Kokhavi</p>
+                    </div>
+                </footer>
+
+            </div>
         </div>
     </div>
-</tr>
-
-
-<h3>Screenshot from a Game I'm Developing</h3>
-    <div class="row">
-        <div class="col-12">
-<img src="Screenshot 2026-01-12 172407.png" alt="Screenshot of an in-progress
- 2D platformer game using placeholder art. A simple player character stands 
- idle on a horizontal platform. Several circular collectible icons are lined 
- up to the left. A developer state chart debug overlay is visible on screen 
- showing “Player 1 → Movement → Grounded,” indicating the character’s current
- state.">
-        </div>
-    </div>
-
-     <div class="row mt-3">
-            <div class="col-12">
-
-<p>
-    It is clearly in a primitive state, but I hope after finalizing level 
-    design to implement proper graphics in place of all the placeholders 
-    visible here.
-</p>
-        </div>
-    </div>
-
-<a href="home.html">
-      Home
-      </a>
-
-      <footer class="mt-5"> 
-        <p>© 2025 Kiefer Kokhavi</p>
-    </footer>
 </body>
+
 </html>
