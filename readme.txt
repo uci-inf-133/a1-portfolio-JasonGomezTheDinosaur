@@ -46,7 +46,7 @@ Embedded HTML5 media, like video or audio, with fallbacks
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
 
-
+Some warnings I ignored included alt text being too long, alt text not being necessary, and image may contain text that is not alt text. I ignored these warnings because I found them to be either not necessary to follow, or going against the intent of my portfolio.
 
 
 4. How long, in hours, did it take you to complete this assignment?
